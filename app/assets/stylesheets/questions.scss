@@ -1,0 +1,38 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$font-stack: 'Ubuntu', sans-serif;
+$primary-color: #023228;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1 {
+  font-family: 'Beth Ellen', cursive;
+}
+
+.container {
+  display: block;
+  margin: 20px auto 0px auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  padding: 10px 0px 40px 0px;
+  background-color: #fffde8;
+}
+
+.answers {
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fffde8;
+  background-color: #023228;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
